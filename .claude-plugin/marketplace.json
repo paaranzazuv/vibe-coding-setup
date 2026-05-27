@@ -12,8 +12,10 @@
       "description": "Setup completo de buenas prácticas para Claude Code. Monta estructura .claude/, reglas de seguridad, deuda técnica y buenas prácticas antes de empezar cualquier proyecto.",
       "category": "productivity",
       "source": {
-        "source": "url",
-        "url": "https://github.com/paaranzazuv/vibe-coding-setup.git"
+        "source": "git-subdir",
+        "url": "paaranzazuv/vibe-coding-setup",
+        "path": ".",
+        "ref": "main"
       },
       "homepage": "https://github.com/paaranzazuv/vibe-coding-setup"
     }
