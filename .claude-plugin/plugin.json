@@ -18,6 +18,7 @@
     "skills": ["skills/vibe-coding-setup"],
     "agents": ["agents/reviewer.md"],
     "commands": [
+      "commands/setup.md",
       "commands/setup-update.md",
       "commands/setup-review.md"
     ]
