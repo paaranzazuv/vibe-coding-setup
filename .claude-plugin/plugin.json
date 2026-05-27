@@ -1,0 +1,25 @@
+{
+  "name": "vibe-coding-setup",
+  "version": "1.0.0",
+  "description": "Setup completo de buenas prácticas para Claude Code. Monta estructura .claude/, reglas de seguridad, deuda técnica y buenas prácticas antes de empezar cualquier proyecto. Incluye integración opcional con Superpowers, CodeGraph, Matt Pocock Skills, Karpathy Guidelines y Ruflo.",
+  "author": {
+    "name": "paaranzazuv",
+    "url": "https://github.com/paaranzazuv"
+  },
+  "keywords": [
+    "setup",
+    "best-practices",
+    "security",
+    "vibe-coding",
+    "claude-code",
+    "boilerplate"
+  ],
+  "components": {
+    "skills": ["skills/vibe-coding-setup"],
+    "agents": ["agents/reviewer.md"],
+    "commands": [
+      "commands/setup-update.md",
+      "commands/setup-review.md"
+    ]
+  }
+}
