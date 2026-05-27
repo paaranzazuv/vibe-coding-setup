@@ -1,10 +1,10 @@
 {
-  "id": "vibe-coding-setup",
+  "name": "vibe-coding-setup",
   "owner": {
     "name": "paaranzazuv"
   },
   "metadata": {
-    "description": "Setup completo de buenas prácticas para Claude Code. Monta estructura .claude/, reglas de seguridad, deuda técnica y buenas prácticas.",
+    "description": "Setup completo de buenas prácticas para Claude Code.",
     "version": "1.0.0"
   },
   "plugins": [
