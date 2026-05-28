@@ -23,17 +23,23 @@ Basado en los mejores repos de la comunidad Claude Code en 2026.
 
 ## Instalación
 
-### Como plugin (recomendado)
+Dentro de Claude Code, ejecutar en orden:
 
-```bash
+```
 /plugin marketplace add paaranzazuv/vibe-coding-setup
 /plugin install vibe-coding-setup@vibe-coding-setup
 ```
 
-### Manual
+## Actualización
 
-```bash
-npx skills@latest add paaranzazuv/vibe-coding-setup
+```
+/vibe-update
+```
+
+O directamente:
+
+```
+/plugin update vibe-coding-setup@vibe-coding-setup
 ```
 
 ---
@@ -117,8 +123,9 @@ Al final del setup el plugin pregunta una a una si quieres instalar cada herrami
 
 | Comando | Cuándo usarlo |
 |---------|--------------|
-| `/vibe-coding-setup` | Al iniciar un proyecto nuevo |
-| `/setup-update` | Cuando cambia el stack o las reglas |
+| `/vibe-setup` | Al iniciar un proyecto nuevo |
+| `/vibe-update` | Para actualizar el plugin a la última versión |
+| `/setup-update` | Cuando cambia el stack o las reglas del proyecto |
 | `/setup-review` | Para verificar que todo está en orden |
 
 ---

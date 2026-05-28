@@ -19,6 +19,7 @@
     "agents": ["agents/reviewer.md"],
     "commands": [
       "commands/vibe-setup.md",
+      "commands/vibe-update.md",
       "commands/setup-update.md",
       "commands/setup-review.md"
     ]
