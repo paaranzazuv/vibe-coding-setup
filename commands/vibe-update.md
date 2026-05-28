@@ -1,19 +1,18 @@
 Actualizar el plugin vibe-coding-setup a la última versión publicada.
 
-Ejecutar este comando de Superpowers:
+Ejecutar en Claude Code:
 
 ```
-/plugin update vibe-coding-setup@vibe-coding-setup
+! claude plugin update vibe-coding-setup@vibe-coding-setup
 ```
 
-Si el comando falla porque el marketplace no está registrado, ejecutar primero:
+Si falla porque el marketplace no está registrado, ejecutar primero:
 
 ```
 /plugin marketplace add paaranzazuv/vibe-coding-setup
-/plugin update vibe-coding-setup@vibe-coding-setup
+! claude plugin update vibe-coding-setup@vibe-coding-setup
 ```
 
-Después de actualizar, confirmar al usuario:
-- Qué versión había instalada (leer gitCommitSha de installed_plugins.json si es accesible)
-- Que la actualización completó correctamente
-- Recordar que los archivos ya generados en el proyecto (CLAUDE.md, .claude/rules/) NO se modifican — solo se actualiza el plugin en ~/.claude/
+Después de actualizar, pedir al usuario que reinicie Claude Code para que los cambios tomen efecto.
+
+Aclarar: los archivos ya generados en el proyecto (CLAUDE.md, .claude/rules/, etc.) NO se modifican. Solo se actualiza el plugin en ~/.claude/.

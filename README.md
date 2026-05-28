@@ -27,8 +27,10 @@ Dentro de Claude Code, ejecutar en orden:
 
 ```
 /plugin marketplace add paaranzazuv/vibe-coding-setup
-/plugin install vibe-coding-setup@vibe-coding-setup
+! claude plugin install vibe-coding-setup@vibe-coding-setup
 ```
+
+Reiniciar Claude Code después de instalar.
 
 ## Actualización
 
@@ -39,7 +41,7 @@ Dentro de Claude Code, ejecutar en orden:
 O directamente:
 
 ```
-/plugin update vibe-coding-setup@vibe-coding-setup
+! claude plugin update vibe-coding-setup@vibe-coding-setup
 ```
 
 ---
